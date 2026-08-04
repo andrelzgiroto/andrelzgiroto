@@ -37,7 +37,7 @@ Conduzido sozinho, da modelagem de domínio à infraestrutura e deploy.
 `Java 21` `Spring Boot` `Spring Security` `Spring AI` `PostgreSQL` `JWT`
 
 ### 🛠️ CoreBoard
-🔗 [github.com/andrelzgiroto/coreboard](https://github.com/andrelzgiroto/coreboard)
+🔗 [github.com/andrelzgiroto/coreboard](https://github.com/andrelzgiroto/coreboard-api)
 
 **Problema:** Assistências técnicas e lojas de informática costumam controlar ordens de serviço, pagamentos e entregas de forma manual e sem visibilidade de métricas.
 
