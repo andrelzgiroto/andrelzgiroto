@@ -34,7 +34,7 @@ Gosto de entender o problema antes de escrever código: cada projeto abaixo nasc
 
 Conduzido sozinho, da modelagem de domínio à infraestrutura e deploy.
 
-`Java 21` `Spring Boot` `Spring Security` `Spring AI` `PostgreSQL` `JWT`
+`Java` `Spring Boot` `Spring Security` `Spring AI` `PostgreSQL` `JWT`
 
 ### 🛠️ CoreBoard
 🔗 [github.com/andrelzgiroto/coreboard-api](https://github.com/andrelzgiroto/coreboard-api)
