@@ -16,7 +16,6 @@ Gosto de entender o problema antes de escrever código: cada projeto abaixo nasc
 
 | | |
 |---|---|
-| 🎯 **Foco** | Arquitetura orientada a domínio, APIs REST e integração com IA |
 | 🧰 **Stack principal** | Java · Spring Boot · PostgreSQL |
 | 📍 **Localização** | Teresópolis, RJ (presencial ou remoto) |
 | ✅ **Status** | Aberto a oportunidades de estágio e vaga júnior |
