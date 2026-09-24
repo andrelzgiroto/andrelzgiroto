@@ -18,7 +18,7 @@ Gosto de entender o problema antes de escrever código e estruturar soluções c
 
 | | |
 |---|---|
-| 🧰 **Stack principal** | Java · Spring Boot · PostgreSQL |
+| 🧰 **Stack principal** | Java · Spring Boot · SQL |
 | 📍 **Localização** | Teresópolis, RJ · Remoto ou presencial |
 | ✅ **Status** | Aberto a estágio em desenvolvimento e oportunidades backend júnior |
 
