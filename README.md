@@ -1,54 +1,68 @@
 # André Giroto
-### Desenvolvedor Backend Java
+### Desenvolvedor Backend | Java & Spring Boot
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andregiroto/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andrelzgiroto@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/andrelzgiroto)
-[![Open to Work](https://img.shields.io/badge/Open%20to%20Work-2ea44f?style=for-the-badge)](https://www.linkedin.com/in/andregiroto/)
 
 ---
 
 ## Sobre mim
 
-Sou Desenvolvedor Backend com foco em **Java e Spring Boot**, cursando Ciência da Computação. Tenho experiência prática na construção de APIs REST, regras de negócio, autenticação, persistência, testes e integração com serviços externos.
+Sou Desenvolvedor Backend com foco em **Java e Spring Boot**, cursando Ciência da Computação. Trabalho principalmente na construção de APIs e aplicações backend, com atenção a regras de negócio, segurança, persistência, testes e integração entre serviços.
 
-Já desenvolvi aplicações backend completas, da modelagem ao deploy em produção. Entre elas está o Rota.tech, uma plataforma de orientação e aprendizagem em tecnologia com IA, além de projetos voltados a modelagem de domínio, segurança e desenvolvimento colaborativo.
+Minha experiência prática inclui projetos completos, desde a modelagem e definição dos fluxos até deploy e manutenção em produção, além de aplicações voltadas a arquitetura orientada a eventos e comunicação assíncrona.
 
-Gosto de entender o problema antes de escrever código e estruturar soluções com atenção a regras de negócio, segurança, manutenção e evolução do produto.
-
-| | |
-|---|---|
-| 🧰 **Stack principal** | Java · Spring Boot · SQL |
-| 📍 **Localização** | Teresópolis, RJ · Remoto ou presencial |
-| ✅ **Status** | Aberto a estágio em desenvolvimento e oportunidades backend júnior |
+Gosto de entender o problema antes de escrever código e tomar decisões técnicas de forma consciente, buscando equilíbrio entre simplicidade, qualidade e evolução do sistema. Continuo aprofundando minha base em backend, arquitetura de aplicações, mensageria e sistemas distribuídos.
 
 ---
 
-## Projetos em Destaque
+## Projetos em destaque
 
 ### 🚀 Rota.tech
 🔗 [rotatech.online](https://rotatech.online)
 
-**Problema:** Quem está começando ou migrando de área em tecnologia encontra muito conteúdo, mas pouca clareza sobre qual caminho seguir, o que estudar e como transformar esse aprendizado em prática.
+**Problema:** quem está começando ou migrando de área em tecnologia encontra muito conteúdo, mas pouca clareza sobre qual caminho seguir, o que estudar e como transformar esse aprendizado em prática.
 
-**Solução:** Plataforma de orientação e aprendizagem em tecnologia com IA. Possui teste vocacional, exploração de áreas, quatro fluxos de geração de roadmaps personalizados, ajuste de roadmaps com IA e um laboratório para geração de projetos de portfólio. As respostas produzidas pela IA são estruturadas e validadas antes de serem integradas ao sistema.
+**Solução:** plataforma de orientação, aprendizagem e construção de carreira em tecnologia, com recursos de IA aplicados aos diferentes fluxos do produto.
 
-Desenvolvi integralmente o backend e conduzi o produto da modelagem de domínio ao deploy e evolução em produção. A primeira versão ultrapassou **50 usuários cadastrados**, além de utilização de funcionalidades sem login.
+Criei o Rota.tech e fui responsável pela definição do produto e dos fluxos, modelagem das regras de negócio e desenvolvimento do backend, incluindo APIs REST, autenticação e autorização, persistência de dados, integração com IA e testes automatizados.
 
-`Java` `Spring Boot` `Spring Security` `Spring AI` `PostgreSQL` `Flyway` `JUnit` `Mockito`
+Também atuei na integração entre backend e frontend, infraestrutura e deploy, acompanhando o produto desde a concepção do MVP até sua publicação e evolução em produção. Entre as principais funcionalidades estão teste vocacional com IA, exploração de áreas de tecnologia, roadmaps personalizados e laboratório para geração de projetos.
+
+A primeira versão ultrapassou **50 usuários cadastrados**, além da utilização de funcionalidades sem autenticação. Atualmente, a aplicação permanece em produção e sob manutenção.
+
+`Java` `Spring Boot` `Spring Security` `Spring AI` `PostgreSQL` `Flyway` `JWT` `JUnit` `Mockito`
+
+---
+
+### ⚡ Notiflow
+🔗 [github.com/andrelzgiroto/notiflow-api](https://github.com/andrelzgiroto/notiflow-api)
+
+**Problema:** explorar, em um domínio simples, desafios de comunicação assíncrona, separação de responsabilidades e tratamento de falhas entre serviços.
+
+**Solução:** sistema de gerenciamento de tarefas e notificações dividido em dois microsserviços independentes. O `task-service` gerencia usuários e tarefas, enquanto o `notification-service` consome eventos e processa notificações de forma assíncrona através do Apache Kafka.
+
+Cada serviço possui seu próprio banco PostgreSQL, mantendo separação de dados e responsabilidades. O projeto foi desenvolvido como aplicação prática de **Event-Driven Architecture**, comunicação assíncrona, isolamento entre serviços e testes de fluxos distribuídos.
+
+`Java` `Spring Boot` `Apache Kafka` `PostgreSQL` `Spring Data JPA` `Spring Mail` `JUnit` `Mockito` `Docker`
+
+---
 
 ### 🛠️ CoreBoard
 🔗 [github.com/andrelzgiroto/coreboard-api](https://github.com/andrelzgiroto/coreboard-api)
 
-**Problema:** Assistências técnicas e lojas de informática costumam controlar ordens de serviço, pagamentos e entregas de forma manual e sem visibilidade de métricas. 
+**Problema:** assistências técnicas e lojas de informática frequentemente controlam ordens de serviço, pagamentos e entregas de forma manual, com pouca visibilidade sobre a operação.
 
-**Solução:** Plataforma que cobre o fluxo completo de clientes, ordens de serviço, atribuição, pagamentos e entrega, com dashboard de métricas como faturamento, pendências, atrasos e performance, agregações via JPQL e GROUP BY e filtros dinâmicos combináveis com Specifications.
+**Solução:** plataforma backend que cobre o fluxo de clientes, ordens de serviço, atribuição, pagamentos e entrega, além de disponibilizar métricas de faturamento, pendências, atrasos e performance.
+
+O projeto explora regras de negócio, autenticação e autorização, filtros dinâmicos com Specifications e consultas agregadas com JPQL e `GROUP BY`.
 
 `Java` `Spring Boot` `Spring Security` `PostgreSQL` `JWT` `OAuth2`
 
 ---
 
-## Stack Tecnológica
+## Tecnologias
 
 ### Backend
 
@@ -63,24 +77,28 @@ Desenvolvi integralmente o backend e conduzi o produto da modelagem de domínio 
 ![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 ![OAuth2](https://img.shields.io/badge/OAuth2-3C3C3D?style=for-the-badge&logo=auth0&logoColor=white)
-![OpenAPI](https://img.shields.io/badge/OpenAPI-6BA539?style=for-the-badge&logo=openapiinitiative&logoColor=white)
 
-### Bancos de Dados
+### Dados
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-### Qualidade & Testes
+### Testes
 
 ![JUnit5](https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white)
 ![Mockito](https://img.shields.io/badge/Mockito-C5D9C8?style=for-the-badge)
 
-### Infra & Ferramentas
+### Arquitetura & Mensageria
+
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+
+**Event-Driven Architecture (EDA)** · Microsserviços · Comunicação assíncrona
+
+### Ferramentas
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 ---
 
@@ -88,13 +106,13 @@ Desenvolvi integralmente o backend e conduzi o produto da modelagem de domínio 
 
 | Curso | Instituição |
 |---|---|
-| Bacharelado em Ciência da Computação | UNIFESO · 2026–2029 (cursando) |
+| Bacharelado em Ciência da Computação | UNIFESO · 2026–2029 |
 
 ---
 
-## Vamos conversar?
+## Contato
 
-Se você tem uma vaga, um desafio técnico ou quer trocar ideia sobre backend, me chama.
+Para conversar sobre desenvolvimento backend, projetos ou tecnologia:
 
-[![Conectar no LinkedIn](https://img.shields.io/badge/Conectar%20no%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andregiroto/)
-[![Enviar Email](https://img.shields.io/badge/Enviar%20Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andrelzgiroto@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andregiroto/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andrelzgiroto@gmail.com)
