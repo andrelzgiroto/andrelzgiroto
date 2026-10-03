@@ -22,9 +22,9 @@ Gosto de entender o problema antes de escrever código e tomar decisões técnic
 ### 🚀 Rota.tech
 🔗 [rotatech.online](https://rotatech.online)
 
-**Problema:** quem está começando ou migrando de área em tecnologia encontra muito conteúdo, mas pouca clareza sobre qual caminho seguir, o que estudar e como transformar esse aprendizado em prática.
+**Problema:** Quem está começando ou migrando de área em tecnologia encontra muito conteúdo, mas pouca clareza sobre qual caminho seguir, o que estudar e como transformar esse aprendizado em prática.
 
-**Solução:** plataforma de orientação, aprendizagem e construção de carreira em tecnologia, com recursos de IA aplicados aos diferentes fluxos do produto.
+**Solução:** Plataforma de orientação, aprendizagem e construção de carreira em tecnologia, com recursos de IA aplicados aos diferentes fluxos do produto.
 
 Criei o Rota.tech e fui responsável pela definição do produto e dos fluxos, modelagem das regras de negócio e desenvolvimento do backend, incluindo APIs REST, autenticação e autorização, persistência de dados, integração com IA e testes automatizados.
 
@@ -39,9 +39,9 @@ A primeira versão ultrapassou **50 usuários cadastrados**, além da utilizaç�
 ### ⚡ Notiflow
 🔗 [github.com/andrelzgiroto/notiflow-api](https://github.com/andrelzgiroto/notiflow-api)
 
-**Problema:** explorar, em um domínio simples, desafios de comunicação assíncrona, separação de responsabilidades e tratamento de falhas entre serviços.
+**Problema:** Explorar, em um domínio simples, desafios de comunicação assíncrona, separação de responsabilidades e tratamento de falhas entre serviços.
 
-**Solução:** sistema de gerenciamento de tarefas e notificações dividido em dois microsserviços independentes. O `task-service` gerencia usuários e tarefas, enquanto o `notification-service` consome eventos e processa notificações de forma assíncrona através do Apache Kafka.
+**Solução:** Sistema de gerenciamento de tarefas e notificações dividido em dois microsserviços independentes. O `task-service` gerencia usuários e tarefas, enquanto o `notification-service` consome eventos e processa notificações de forma assíncrona através do Apache Kafka.
 
 Cada serviço possui seu próprio banco PostgreSQL, mantendo separação de dados e responsabilidades. O projeto foi desenvolvido como aplicação prática de **Event-Driven Architecture**, comunicação assíncrona, isolamento entre serviços e testes de fluxos distribuídos.
 
@@ -52,9 +52,9 @@ Cada serviço possui seu próprio banco PostgreSQL, mantendo separação de dado
 ### 🛠️ CoreBoard
 🔗 [github.com/andrelzgiroto/coreboard-api](https://github.com/andrelzgiroto/coreboard-api)
 
-**Problema:** assistências técnicas e lojas de informática frequentemente controlam ordens de serviço, pagamentos e entregas de forma manual, com pouca visibilidade sobre a operação.
+**Problema:** Assistências técnicas e lojas de informática frequentemente controlam ordens de serviço, pagamentos e entregas de forma manual, com pouca visibilidade sobre a operação.
 
-**Solução:** plataforma backend que cobre o fluxo de clientes, ordens de serviço, atribuição, pagamentos e entrega, além de disponibilizar métricas de faturamento, pendências, atrasos e performance.
+**Solução:** Plataforma backend que cobre o fluxo de clientes, ordens de serviço, atribuição, pagamentos e entrega, além de disponibilizar métricas de faturamento, pendências, atrasos e performance.
 
 O projeto explora regras de negócio, autenticação e autorização, filtros dinâmicos com Specifications e consultas agregadas com JPQL e `GROUP BY`.
 
@@ -91,8 +91,6 @@ O projeto explora regras de negócio, autenticação e autorização, filtros di
 ### Arquitetura & Mensageria
 
 ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
-
-**Event-Driven Architecture (EDA)** · Microsserviços · Comunicação assíncrona
 
 ### Ferramentas
 
