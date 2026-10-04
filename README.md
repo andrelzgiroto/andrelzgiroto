@@ -22,7 +22,11 @@ Gosto de entender o problema antes de escrever código e tomar decisões técnic
 ### 🚀 Rota.tech
 🔗 [rotatech.online](https://rotatech.online)
 
-Plataforma de orientação e aprendizagem em tecnologia com IA, criada e desenvolvida por mim desde a modelagem do produto e das regras de negócio até APIs REST, segurança, persistência, integração com IA, testes e deploy. Possui teste vocacional, exploração de áreas, roadmaps personalizados e laboratório de projetos, e sua primeira versão ultrapassou **50 usuários cadastrados**, além do uso de funcionalidades sem autenticação.
+**Problema:** Quem está começando ou migrando de área em tecnologia encontra muito conteúdo, mas pouca clareza sobre qual caminho seguir, o que estudar e como transformar esse aprendizado em prática.
+
+**Solução:** Plataforma de orientação e aprendizagem em tecnologia com IA, com teste vocacional, exploração de áreas, roadmaps personalizados e laboratório para geração de projetos.
+
+Criei o Rota.tech e desenvolvi o backend desde a modelagem das regras de negócio até APIs REST, segurança, persistência, integração com IA, testes e deploy. A primeira versão ultrapassou **50 usuários cadastrados**, além do uso de funcionalidades sem autenticação.
 
 `Java` `Spring Boot` `Spring Security` `Spring AI` `PostgreSQL` `Flyway` `JWT` `JUnit` `Mockito`
 
