@@ -22,15 +22,7 @@ Gosto de entender o problema antes de escrever código e tomar decisões técnic
 ### 🚀 Rota.tech
 🔗 [rotatech.online](https://rotatech.online)
 
-**Problema:** Quem está começando ou migrando de área em tecnologia encontra muito conteúdo, mas pouca clareza sobre qual caminho seguir, o que estudar e como transformar esse aprendizado em prática.
-
-**Solução:** Plataforma de orientação, aprendizagem e construção de carreira em tecnologia, com recursos de IA aplicados aos diferentes fluxos do produto.
-
-Criei o Rota.tech e fui responsável pela definição do produto e dos fluxos, modelagem das regras de negócio e desenvolvimento do backend, incluindo APIs REST, autenticação e autorização, persistência de dados, integração com IA e testes automatizados.
-
-Também atuei na integração entre backend e frontend, infraestrutura e deploy, acompanhando o produto desde a concepção do MVP até sua publicação e evolução em produção. Entre as principais funcionalidades estão teste vocacional com IA, exploração de áreas de tecnologia, roadmaps personalizados e laboratório para geração de projetos.
-
-A primeira versão ultrapassou **50 usuários cadastrados**, além da utilização de funcionalidades sem autenticação. Atualmente, a aplicação permanece em produção e sob manutenção.
+Plataforma de orientação e aprendizagem em tecnologia com IA, criada e desenvolvida por mim desde a modelagem do produto e das regras de negócio até APIs REST, segurança, persistência, integração com IA, testes e deploy. Possui teste vocacional, exploração de áreas, roadmaps personalizados e laboratório de projetos, e sua primeira versão ultrapassou **50 usuários cadastrados**, além do uso de funcionalidades sem autenticação.
 
 `Java` `Spring Boot` `Spring Security` `Spring AI` `PostgreSQL` `Flyway` `JWT` `JUnit` `Mockito`
 
@@ -43,7 +35,7 @@ A primeira versão ultrapassou **50 usuários cadastrados**, além da utilizaç�
 
 **Solução:** Sistema de gerenciamento de tarefas e notificações dividido em dois microsserviços independentes. O `task-service` gerencia usuários e tarefas, enquanto o `notification-service` consome eventos e processa notificações de forma assíncrona através do Apache Kafka.
 
-Cada serviço possui seu próprio banco PostgreSQL, mantendo separação de dados e responsabilidades. O projeto foi desenvolvido como aplicação prática de **Event-Driven Architecture**, comunicação assíncrona, isolamento entre serviços e testes de fluxos distribuídos.
+Cada serviço possui seu próprio banco PostgreSQL, mantendo separação de dados e responsabilidades. O projeto foi desenvolvido como aplicação prática de **Event-Driven Architecture**, comunicação assíncrona, isolamento entre serviços e testes de integração do fluxo assíncrono.
 
 `Java` `Spring Boot` `Apache Kafka` `PostgreSQL` `Spring Data JPA` `Spring Mail` `JUnit` `Mockito` `Docker`
 
@@ -69,7 +61,6 @@ O projeto explora regras de negócio, autenticação e autorização, filtros di
 ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 
 ### APIs & Segurança
 
@@ -88,7 +79,7 @@ O projeto explora regras de negócio, autenticação e autorização, filtros di
 ![JUnit5](https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white)
 ![Mockito](https://img.shields.io/badge/Mockito-C5D9C8?style=for-the-badge)
 
-### Arquitetura & Mensageria
+### Mensageria
 
 ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
 
